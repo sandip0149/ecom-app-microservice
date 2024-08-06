@@ -1,8 +1,9 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
+*.out
 
 # BlueJ files
 *.ctxt
@@ -22,3 +23,69 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Eclipse files
+.project
+.classpath
+.settings/
+.bin/
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# STS (Spring Tool Suite) files
+.springBeans
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code files
+.vscode/
+
+# Temporary files
+*.swp
+*.swo
+*~
+*#
+.DS_Store
+Thumbs.db
+
+# MacOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Spring Boot specific
+spring.log
+.spring/
